@@ -1,6 +1,6 @@
 # TempoSketch — Draw → Chords → Melody
 
-A browser-based music creation tool that transforms your drawings into musical compositions. Draw a curve, and TempoSketch automatically generates a chord progression and melody in your chosen key and mode. Built for a 48-hour hackathon.
+A browser-based music creation tool that transforms your drawings into musical compositions. Draw a curve, and TempoSketch automatically generates a chord progression and melody in your chosen key and mode.
 
 ![TempoSketch Demo](screenshot-placeholder.png)
 
