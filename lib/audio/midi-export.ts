@@ -64,7 +64,7 @@ export function exportToMIDI(
   const midiArray = midi.toArray();
 
   // Create blob and download
-  const blob = new Blob([midiArray], { type: "audio/midi" });
+  const blob = new Blob([midiArray.buffer as ArrayBuffer], { type: "audio/midi" });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement("a");
